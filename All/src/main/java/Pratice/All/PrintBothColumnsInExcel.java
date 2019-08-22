@@ -29,11 +29,7 @@ public static void main(String args[]) throws IOException{
 	XSSFRow row = null;
 	
 	while(rows.hasNext()){
-		 row = (XSSFRow) rows.next ();
-
-		
-
-	
+		 row = (XSSFRow) rows.next ();	
     Iterator<Cell> cells = row.cellIterator ();
 	
 	while (cells.hasNext ())
